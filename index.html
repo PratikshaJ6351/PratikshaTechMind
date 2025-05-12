@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Bundle & Save</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container">
+  <h1>Bundle & Save</h1>
+
+  <div class="product-box" data-value="1" id="product-1">
+    <div class="discount-badge">70%</div>
+    <div class="product-header">
+      <input type="checkbox" id="checkbox-1" />
+      <label for="checkbox-1" class="checkbox-label">
+        <div class="checkbox-icon"></div>
+        1 Pair
+      </label>
+    </div>
+    <div class="price-display">Price: 195</div>
+    <div class="details">
+      <div style="display:flex; flex-wrap:wrap; gap:10px;">
+        <select>
+          <option value="S">Size: S</option>
+          <option value="M">Size: M</option>
+          <option value="L">Size: L</option>
+        </select>
+        <select>
+          <option value="colour1">Colour 1</option>
+          <option value="colour2">Colour 2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-box" data-value="2" id="product-2">
+    <div class="discount-badge">50%</div>
+    <div class="product-header">
+      <input type="checkbox" id="checkbox-2" />
+      <label for="checkbox-2" class="checkbox-label">
+        <div class="checkbox-icon"></div>
+        2 Pairs
+      </label>
+    </div>
+    <div class="price-display">Price: 345</div>
+    <div class="details">
+      <div style="display:flex; flex-wrap:wrap; gap:10px;">
+        <select>
+          <option value="S">Size: S</option>
+          <option value="M">Size: M</option>
+          <option value="L">Size: L</option>
+        </select>
+        <select>
+          <option value="colour1">Colour 1</option>
+          <option value="colour2">Colour 2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-box" data-value="3" id="product-3">
+    <div class="discount-badge">40%</div>
+    <div class="product-header">
+      <input type="checkbox" id="checkbox-3" />
+      <label for="checkbox-3" class="checkbox-label">
+        <div class="checkbox-icon"></div>
+        3 Pairs
+      </label>
+    </div>
+    <div class="price-display">Price: 528</div>
+    <div class="details">
+      <div style="display:flex; flex-wrap:wrap; gap:10px;">
+        <select>
+          <option value="S">Size: S</option>
+          <option value="M">Size: M</option>
+          <option value="L">Size: L</option>
+        </select>
+        <select>
+          <option value="colour1">Colour 1</option>
+          <option value="colour2">Colour 2</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="total-section">
+    <h3>Total</h3>
+    <div id="total">0.00</div>
+    <button id="addToCart">+ Add to Cart</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
